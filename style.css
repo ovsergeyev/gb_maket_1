@@ -578,6 +578,12 @@ a.button:hover {
 
 /********** Страница Product Details ***************/
 
+.related-wrap {
+    padding-bottom: 90px;
+    width: 100%;
+    float: left;
+}
+
 .related-box .explore {
     display: block;
     float: right;
@@ -621,6 +627,7 @@ a.button:hover {
     height: 70px;
     margin-top: 30px;
     background-color: #f4f4f4;
+    padding-left: 41px;
 }
 
 .nav-details ul {
@@ -643,7 +650,7 @@ a.button:hover {
     text-transform: uppercase;
     letter-spacing: 1.8px;
     color: #6c6c6c;
-    padding: 0 20px;
+    padding: 0 10px;
     line-height: 70px;
 }
 
@@ -661,6 +668,7 @@ a.button:hover {
 
 .product-details {
     float: left;
+    margin-bottom: 124px;
 }
 
 .img-details {
@@ -748,7 +756,7 @@ a.button:hover {
     font-size: 16px;
     font-weight: 300;
     margin-left: 58px;
-    margin-bottom: 14px;
+    margin-bottom: 15px;
     letter-spacing: 0.3px;
     line-height: 22px;
 }
