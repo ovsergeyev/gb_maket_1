@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
 
+@font-face {
+    font-family: 'Gotham';
+    src: url('fonts/GothaProLig.otf');
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -96,7 +101,7 @@ body {
     margin-bottom: 31px;
 }
 
-a.button {
+a.button1 {
     display: block;
     width: 182px;
     height: 45px;
@@ -614,18 +619,21 @@ a.button:hover {
 .nav-details {
     width: 100%;
     height: 70px;
+    margin-top: 30px;
     background-color: #f4f4f4;
 }
 
 .nav-details ul {
-    width: 800px;
+    width: 725px;
     margin: 0 auto;
+    height: 100%;
 }
 
 .nav-details li {
     display: block;
     list-style-type: none;
     float: left;
+    height: 100%;
 }
 
 .nav-details a {
@@ -635,8 +643,112 @@ a.button:hover {
     text-transform: uppercase;
     letter-spacing: 1.8px;
     color: #6c6c6c;
+    padding: 0 20px;
+    line-height: 70px;
+}
+
+.nav-details li:first-child a {
+    padding-left: 0;
+}
+
+.nav-details li:last-child a {
+    padding-right: 0;
 }
 
 .nav-details a:hover {
     color: #212121;
+}
+
+.product-details {
+    float: left;
+}
+
+.img-details {
+    float: left;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.img-min {
+    width: 282px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.img-min img {
+    height: 70px;
+    width: 70px;
+    margin-left: 5px;
+    ;
+}
+
+.text-details {
+    float: left;
+    width: 570px;
+}
+
+.text-details h1 {
+    margin-top: 112px;
+    margin-left: 194px;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.text-details h3 {
+    margin-left: 260px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #e53935;
+    letter-spacing: 1.4px;
+}
+
+.text-details .price {
+    font-family: Gotham;
+    margin-left: 190px;
+    margin-top: 18px;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.text-details .price span.num {
+
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.text-details a.button {
+    /* Style for "btn" */
+    display: block;
+    margin-left: 53px;
+    margin-top: 22px;
+    width: 350px;
+    height: 71px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 35px;
+    background-color: #f44336;
+    line-height: 71px;
+    text-decoration: none;
+    padding-left: 160px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.8px;
+    margin-bottom: 46px;
+}
+
+.text-details p {
+    color: #212121;
+    font-family: Gotham;
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 58px;
+    margin-bottom: 14px;
+    letter-spacing: 0.3px;
+    line-height: 22px;
 }
