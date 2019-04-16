@@ -730,7 +730,6 @@ a.button:hover {
 }
 
 .text-details a.button {
-    /* Style for "btn" */
     display: block;
     margin-left: 53px;
     margin-top: 22px;
@@ -748,6 +747,11 @@ a.button:hover {
     text-transform: uppercase;
     letter-spacing: 3.8px;
     margin-bottom: 46px;
+}
+
+.text-details a.button:hover {
+    
+    background: #f44336 url("img/arrow1.png") no-repeat 335px 23px;
 }
 
 .text-details p {
@@ -777,8 +781,9 @@ a.button:hover {
     letter-spacing: -3.4px;
     word-spacing: 9px;
 }
-.products-wrap{
-    float:left;
+
+.products-wrap {
+    float: left;
     width: 100%;
     margin-top: 71px;
     margin-bottom: 66px;
@@ -831,4 +836,53 @@ a.button:hover {
     margin: 0 auto;
     background: url('img/upload.png');
     margin-top: 40px;
+}
+
+.header-contact {
+    margin-bottom: 112px;
+}
+
+.contact-wrap {
+    width: 100%;
+    float: left;
+    margin-bottom: 123px;
+}
+
+.contact-item {
+    width: 370px;
+    height: 370px;
+    outline: 1px solid #000;
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.contact-item:nth-child(3) {
+    margin-right: 0;
+}
+
+.contact-item img {
+    margin-top: 48px;
+    margin-bottom: 23px;
+}
+
+.contact-item h2 {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.8px;
+    margin-bottom: 15px;
+}
+
+.contact-item div {
+    color: #212121;
+    margin-bottom: 17px;
+}
+
+.contact-item span {
+    font-weight: 300;
 }
