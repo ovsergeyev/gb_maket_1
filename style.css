@@ -20,6 +20,10 @@ body {
     margin: 0 auto;
 }
 
+.header {
+    position: relative;
+}
+
 .header-main {
     height: 800px;
     background: url("img/slider-img.jpg");
@@ -34,6 +38,7 @@ body {
     float: right;
     margin-top: 62px;
     margin-right: 196px;
+    width: 600px;
 }
 
 .header .menu li {
@@ -65,6 +70,12 @@ body {
     color: #212121;
     font-weight: 700;
     letter-spacing: 1.4px;
+}
+
+.header .search {
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 20px;
 }
 
 .header-text {
@@ -99,6 +110,21 @@ body {
     letter-spacing: -0.1px;
     line-height: 22px;
     margin-bottom: 31px;
+}
+
+.header .navbar {
+    position: absolute;
+    bottom: 20px;
+    left: 625px;
+    background: url('img/navi.png');
+    background-size: cover;
+    width: 120px;
+    height: 40px;
+}
+
+.header .navbar .active {
+    margin: 0 auto;
+    display: block;
 }
 
 a.button {
@@ -573,6 +599,24 @@ a.button:hover {
     bottom: 37px;
     right: 102px;
     letter-spacing: 0.3px;
+}
+
+.footer .social {
+    width: 140px;
+    height: 35px;
+    position: absolute;
+    bottom: 32px;
+    left: 630px;
+}
+
+.footer .social a {
+    color: black;
+}
+
+.stay-touch div {
+    text-align: right;
+    margin-top: -32px;
+    margin-right: 7px;
 }
 
 
